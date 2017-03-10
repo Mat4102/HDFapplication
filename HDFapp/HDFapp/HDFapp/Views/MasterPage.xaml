@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:HDFapp.ViewModels;assembly=HDFapp"
+             x:Class="HDFapp.Views.MasterPage">
+
+  <ContentPage.BindingContext>
+    <viewModels:MasterPageCs></viewModels:MasterPageCs>
+  </ContentPage.BindingContext>
+  
+  <ContentPage.Content>
+    <StackLayout VerticalOptions="FillAndExpand"  >
+      <ListView x:Name="ListPic" VerticalOptions="FillAndExpand">
+        <ListView.ItemTemplate>
+          <DataTemplate>
+            <ImageCell x:Name="Image_" Text="{Binding Title }" Aspect="AspectFill"  WidthRequest="20" HeightRequest="20" ImageSource="{Binding IconSource}" />
+          </DataTemplate>
+        </ListView.ItemTemplate>
+      </ListView>
+    </StackLayout>   
+  </ContentPage.Content>
+</ContentPage>

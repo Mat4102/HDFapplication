@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HDFapp.Views.LoginPage"
+             BackgroundColor="Gray"
+             Title="Login Page">
+  <StackLayout Spacing="20" Padding="80" VerticalOptions="Center" >
+    <Entry x:Name="Enom"
+           Placeholder="No dossier ou No carte"
+           HorizontalOptions="Center"
+           TextColor="Black"/>
+
+    <Entry x:Name="LPrenom"
+           Placeholder="Mot de passe"
+           HorizontalOptions="Center"
+           IsPassword="True"
+           TextColor="Black"
+          />
+
+    <Button x:Name="BttonC" Text="Connexion"
+           HorizontalOptions="Center"
+           BackgroundColor="Gray" />
+
+    <Button x:Name="BttonI" Text="Retour"
+           HorizontalOptions="Center"
+           BackgroundColor="Gray">
+    </Button>
+  </StackLayout>
+</ContentPage>

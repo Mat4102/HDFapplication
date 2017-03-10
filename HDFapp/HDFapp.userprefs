@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{898232FA-6AE1-41F5-A973-36F8E0F83E0B}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.HDFapp.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="HDFapp\HDFapp\ViewModels\MasterPageCs.cs">
+    <Files>
+      <File FileName="..\..\..\..\..\..\Program Files (x86)\MSBuild\Xamarin\Android\Xamarin.Android.Common.targets" Line="2413" Column="86" />
+      <File FileName="HDFapp\HDFapp\Views\LoginPage.xaml" Line="1" Column="1" />
+      <File FileName="HDFapp\HDFapp\App.xaml" Line="1" Column="1" />
+      <File FileName="HDFapp\HDFapp\Models\MasterPageItem.cs" Line="1" Column="1" />
+      <File FileName="HDFapp\HDFapp\Views\MainPage.xaml" Line="17" Column="20" />
+      <File FileName="HDFapp\HDFapp\Views\MasterPage.xaml" Line="1" Column="1" />
+      <File FileName="HDFapp\HDFapp\Views\MasterPage.xaml.cs" Line="18" Column="10" />
+      <File FileName="HDFapp\HDFapp\Views\MainPage.xaml.cs" Line="16" Column="36" />
+      <File FileName="HDFapp\HDFapp\ViewModels\MasterPageCs.cs" Line="17" Column="33" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
